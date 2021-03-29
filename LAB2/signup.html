@@ -1,0 +1,51 @@
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jiwoo's home-signup</title>
+    <link rel = "stylesheet" type= "text/css" href = "main.css" />
+</head>
+
+<body>
+    <div class="box">
+        <h1 id="ttl">welcome to jiwoo's home!</h1>
+        <div id="menu">
+            <a href="login.html">로그인</a>
+            <a class="high" href="signup.html">회원가입</a>
+        </div>
+    </div>
+
+    <!-- 선 -->
+    <div class="form box">
+        <h3>개인정보(필수)</h3>
+        <p>
+            <label>이름: <input name = "name" type="text" autofocus placeholder="이름입력"></label>
+        </p>
+        <p>
+            <label>생일: <input type="date" required name="date"></label>
+        </p>
+        <p>
+            <label>학년: <input type="number" required name="number" min="1" max="4"></label>
+        </p>
+        <p>
+            <label>전화번호: <input type="tel" name="tel"  pattern="\(\d{3}\) \d{3}-\d{4}" placeholder="(###)###-####"></label>
+        </p>
+        <p>
+            <label>아이디: <input name = "email" type="email" placeholder="xxx@xxx.xx"></label>
+        </p>
+        <p>
+            <label>비밀번호: <input name = "password" type="password"></label>
+        </p>
+        <p>
+            <label>비밀번호 확인: <input name = "password_re" autocomplete="on" type="password"></label>
+        </p>
+
+        <div>
+            <button type="submit" class="btn green">Signup</button>
+            <button type="reset" class="btn red"> Cancel</button>
+        </div>
+    </div>
+    
+
+</body>
+</html>

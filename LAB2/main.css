@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    
+    margin: 50px;
+}
+
+#ttl {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+div a {
+    color: black;
+    text-decoration:none;
+    font-size: 18px;
+}
+
+.high {
+    padding: 3px;
+
+    border: 100px;
+    border-width: medium;
+    border-color: rgb(255, 0, 0);
+    border-style: solid none solid none;
+}
+.box {
+    margin: 10px;
+    padding: 30px;
+}
+.form {
+    border: 100px;
+    border-width : medium;
+    border: rgb(0, 0, 0);
+    border-style: solid none solid none;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    
+    font-size: 18px;
+    border: black;
+    border-width:medium;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.green {
+    background-color: aquamarine;
+}
+
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+.blue {
+    background-color: rgb(81, 151, 255);
+}

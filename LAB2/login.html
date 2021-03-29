@@ -1,0 +1,40 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jiwoo's home!-login</title>
+    <link rel = "stylesheet" type = "text/css" href = "main.css">
+
+</head>
+<body>
+    <div class="box">
+        <h1 id="ttl">welcome to jiwoo's home!</h1>
+        <div id="menu">
+            <a class="high" href="login.html">로그인</a>
+        </div>
+    </div>
+
+    <!-- 선 -->
+    <div class="form box">
+        <h3>회원정보(필수)</h3>
+        <p>
+            <label>유저 아이디: <input name = "email" type="email" autocomplete="on" placeholder="이메일을 입력하세요"></label>
+        </p>
+        <p>
+            <label>비밀번호: <input name = "password" autocomplete="on" type="password" placeholder="비밀번호를 입력하세요"></label>
+        </p>
+        <p>
+            <label>비밀번호 확인: <input name = "password_re" autocomplete="on" type="password" placeholder="비밀번호 확인" ></label>
+        </p>
+
+        <div>
+            <button type="submit" class="button btn green">로그인</button>
+            <button type="button" class="button btn blue" onclick="location.href='signup.html'">회원가입
+            </button>
+        </div>
+    </div>
+    
+
+</body>
+</html>
